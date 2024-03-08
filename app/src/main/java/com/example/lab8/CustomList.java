@@ -72,7 +72,7 @@ public class CustomList extends ArrayAdapter<City> {
      * @param city
      * @return boolean, if the city is in the group or not
      */
-//    public boolean hasCity(City city) {
-//        return cities.contains(city);
-//    }
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
 }
