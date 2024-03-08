@@ -42,7 +42,7 @@ public class CustomListTest {
 
     public void testHasCity() {
         list  = MockCityList();
-        City temp_city = new City("Estevan", "SK")
+        City temp_city = new City("Estevan", "SK");
         assertEquals(0, temp_city.compareTo(list.getCities().get(0)));
         City city = new City("Charlottetown", "Prince Edward Island");
         list.add(city);
